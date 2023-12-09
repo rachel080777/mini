@@ -1,0 +1,121 @@
+2023-12-08T19:36:22.439Z - info: [gme] Node version v20.9.0
+2023-12-08T19:36:22.439Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-08T19:36:22.439Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-08T19:36:22.446Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-08T19:36:22.506Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-08T19:36:22.509Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T19:36:22.527Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:36:22.527Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:40:23.045Z - info: [gme] Node version v20.9.0
+2023-12-08T19:40:23.045Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-08T19:40:23.045Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-08T19:40:23.052Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-08T19:40:23.178Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-08T19:40:23.180Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T19:40:23.187Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:40:23.188Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:47:04.545Z - info: [gme] Node version v20.9.0
+2023-12-08T19:47:04.545Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-08T19:47:04.546Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-08T19:47:04.552Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-08T19:47:04.609Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-08T19:47:04.611Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T19:47:04.618Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:47:04.619Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:49:24.847Z - info: [gme] Node version v20.9.0
+2023-12-08T19:49:24.848Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-08T19:49:24.848Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-08T19:49:24.854Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-08T19:49:24.918Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-08T19:49:24.920Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T19:49:24.927Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:49:24.927Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:55:25.700Z - info: [gme] Node version v20.9.0
+2023-12-08T19:55:25.700Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-08T19:55:25.700Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-08T19:55:25.707Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-08T19:55:25.829Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-08T19:55:25.833Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T19:55:25.865Z - warn: [gme:server:auth:gmeauth] User "guest" was not found. We will attempt to create it automatically.
+2023-12-08T19:55:25.973Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T19:55:26.144Z - info: [gme:server:standalone] Server is listening ...
+2023-12-08T19:56:05.359Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-08T19:56:05.359Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-08T19:56:05.360Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-08T19:56:05.360Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-08T19:56:05.367Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-08T20:04:51.398Z - info: [gme] Node version v20.9.0
+2023-12-08T20:04:51.398Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-08T20:04:51.398Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-08T20:04:51.405Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-08T20:04:51.472Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-08T20:04:51.474Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T20:04:51.522Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-08T20:04:51.671Z - info: [gme:server:standalone] Server is listening ...
+2023-12-08T20:05:57.423Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] zmq-server listening at port 5555
+2023-12-08T20:05:57.680Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:57,679 - flip_tiles - INFO - sys.args: ['/Users/ruiqinglan/myproject/src/plugins/flip_tiles/run_plugin.py', '5555', '"#34f09dbe70c3170d5757a62f9b670eee1c0127d3"', '"master"', '"/J/9/z/5"', '""', '""']
+
+2023-12-08T20:05:57.682Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:57,682 - flip_tiles - INFO - Connected to tcp://127.0.0.1:5555
+
+2023-12-08T20:05:57.689Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:57,689 - flip_tiles - INFO - name: Tile
+
+2023-12-08T20:05:57.689Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:57,689 - flip_tiles - WARNING - pos : {'x': 330, 'y': 351}
+
+2023-12-08T20:05:57.690Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:57,690 - flip_tiles - ERROR - guid: f860536d-232d-6167-2117-e3a0cd674dab
+
+2023-12-08T20:05:58.880Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:58,880 - flip_tiles - INFO - [(4, 3)]
+
+2023-12-08T20:05:58.978Z - info: [gme:server:worker:simpleworker:pid_38661:WorkerFunctions:PluginManagerBase:plugin:flip_tiles] 2023-12-08 14:05:58,978 - flip_tiles - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2023-12-09T00:14:24.963Z - info: [gme] Node version v20.9.0
+2023-12-09T00:14:24.963Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-09T00:14:24.963Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-09T00:14:24.970Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-09T00:14:25.032Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-09T00:14:25.033Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T00:14:25.097Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T00:14:25.240Z - error: [gme:server:standalone] Failed to start server port=8888, code=EADDRINUSE, errno=-48, syscall=listen, address=::, port=8888
+2023-12-09T00:26:07.153Z - info: [gme] Node version v20.9.0
+2023-12-09T00:26:07.154Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-09T00:26:07.154Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-09T00:26:07.160Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-09T00:26:07.219Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-09T00:26:07.221Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T00:26:07.269Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T00:26:07.540Z - info: [gme:server:standalone] Server is listening ...
+2023-12-09T00:26:45.955Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-09T00:26:45.956Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-09T00:26:45.958Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-09T00:26:45.958Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-09T00:26:45.970Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-12-09T03:27:54.151Z - info: [gme] Node version v20.9.0
+2023-12-09T03:27:54.152Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-09T03:27:54.152Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-09T03:27:54.158Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-09T03:27:54.227Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-09T03:27:54.228Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T03:27:54.234Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T03:27:54.234Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-09T03:28:28.155Z - info: [gme] Node version v20.9.0
+2023-12-09T03:28:28.156Z - info: [gme] Logfile [ info ] : /Users/ruiqinglan/myproject/server.log
+2023-12-09T03:28:28.156Z - info: [gme] Logfile [ error ] : /Users/ruiqinglan/myproject/server-error.log
+2023-12-09T03:28:28.168Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.60.237:8888  http://192.168.64.1:8888
+2023-12-09T03:28:28.407Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/ruiqinglan/myproject/blob-local-storage
+2023-12-09T03:28:28.411Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T03:28:28.516Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/myproject
+2023-12-09T03:28:28.948Z - info: [gme:server:standalone] Server is listening ...

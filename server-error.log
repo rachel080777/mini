@@ -1,0 +1,26 @@
+2023-12-08T19:36:22.527Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:36:22.527Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:40:23.187Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:40:23.188Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:47:04.618Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:47:04.619Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T19:49:24.927Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T19:49:24.927Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-09T00:14:25.240Z - error: [gme:server:standalone] Failed to start server port=8888, code=EADDRINUSE, errno=-48, syscall=listen, address=::, port=8888
+2023-12-09T03:27:54.234Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T03:27:54.234Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError

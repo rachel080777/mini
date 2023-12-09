@@ -1,0 +1,29 @@
+domain SM
+{
+  State ::= new (name: String).
+  Transition ::= new (src: State, dst: State, event: String).
+  Init ::= new (state: State).
+  End ::= new (state: State).
+
+  conforms count({s | s is Init}) = 1.
+
+  reachable ::= (State, State).
+
+  reachable(s,d) :- s is State, d is State, t is Transition(s,d,_).
+  reachable(s,d) :- s is State, d is State, i is State, reachable(s,i), reachable(i,d).
+
+  // conforms i is Init, s is State, reachable(i.state, s).
+  unreachable ::= (State, State).
+  unreachable(s,d) :- s is State, d is State, no reachable(s,d).
+  conforms no unreachable(i,_), Init(i).
+}
+
+model SM1 of SM
+{
+  s1 is State("1").
+  s2 is State("2").
+  s3 is State("3").
+  Transition(s1,s2, "e1").
+  Transition(s2,s3, "e2").
+  Init(s1).
+}

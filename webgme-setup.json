@@ -1,0 +1,19 @@
+{
+  "components": {
+    "seeds": {
+      "seed_2": {
+        "src": "src/seeds/seed_2"
+      }
+    },
+    "plugins": {
+      "flip_tiles": {
+        "src": "src/plugins/flip_tiles",
+        "test": "test/plugins/flip_tiles"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "plugins": {}
+  }
+}
