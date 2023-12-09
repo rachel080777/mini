@@ -15,9 +15,9 @@ import signal
 import atexit
 import logging
 from webgme_bindings import WebGME
-from flip_tiles import flip_tiles
+from auto import auto
 
-logger = logging.getLogger('flip_tiles')
+logger = logging.getLogger('auto')
 
 # Modify these or add option or parse from sys.argv (as in done in run_plugin.py)
 PORT = '5555'
@@ -51,7 +51,7 @@ def exit_handler():
 atexit.register(exit_handler)
 
 commit_hash = webgme.project.get_branch_hash(BRANCH_NAME)
-plugin = flip_tiles(webgme, commit_hash, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+plugin = auto(webgme, commit_hash, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
 
 # Do the work
 plugin.main()

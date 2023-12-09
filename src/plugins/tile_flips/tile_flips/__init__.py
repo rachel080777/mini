@@ -1,13 +1,13 @@
 """
 This is where the implementation of the plugin code goes.
-The flip_tiles-class is imported from both run_plugin.py and run_debug.py
+The tile_flips-class is imported from both run_plugin.py and run_debug.py
 """
 import sys
 import logging
 from webgme_bindings import PluginBase
 
 # Setup a logger
-logger = logging.getLogger('flip_tiles')
+logger = logging.getLogger('tile_flips')
 logger.setLevel(logging.INFO)
 handler = logging.StreamHandler(sys.stdout)  # By default it logs to stderr..
 handler.setLevel(logging.INFO)
@@ -16,9 +16,8 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
-class flip_tiles(PluginBase):
+class tile_flips(PluginBase):
   def main(self):
-    
     active_node = self.active_node
     core = self.core
     logger = self.logger
@@ -212,6 +211,7 @@ class flip_tiles(PluginBase):
     
     
           
+
 
 
 

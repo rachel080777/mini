@@ -1,14 +1,34 @@
 {
   "components": {
     "seeds": {
-      "seed_2": {
-        "src": "src/seeds/seed_2"
+      "seedfinal": {
+        "src": "src/seeds/seedfinal"
       }
     },
     "plugins": {
       "flip_tiles": {
         "src": "src/plugins/flip_tiles",
         "test": "test/plugins/flip_tiles"
+      },
+      "tile_flips": {
+        "src": "src/plugins/tile_flips",
+        "test": "test/plugins/tile_flips"
+      },
+      "auto": {
+        "src": "src/plugins/auto",
+        "test": "test/plugins/auto"
+      },
+      "isHighlight": {
+        "src": "src/plugins/isHighlight",
+        "test": "test/plugins/isHighlight"
+      },
+      "countingPieces": {
+        "src": "src/plugins/countingPieces",
+        "test": "test/plugins/countingPieces"
+      },
+      "undo": {
+        "src": "src/plugins/undo",
+        "test": "test/plugins/undo"
       }
     }
   },
