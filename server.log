@@ -245,3 +245,7 @@
     at runSingle (/Users/ruiqinglan/myproject/node_modules/q/q.js:137:13)
     at flush (/Users/ruiqinglan/myproject/node_modules/q/q.js:125:13)
     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-12-10T23:50:43.399Z - error: [gme:server:standalone:api] MongoError: pool destroyed
+2023-12-10T23:50:43.414Z - error: [gme:server:standalone:api] MongoError: pool destroyed
+2023-12-11T01:28:10.068Z - error: [gme:server:standalone:api] MongoError: pool destroyed
+2023-12-11T01:28:10.077Z - error: [gme:server:standalone:api] MongoError: pool destroyed

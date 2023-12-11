@@ -236,9 +236,8 @@ class countingPieces(PluginBase):
    
     for childPath in childPaths:
       child = core.load_by_path(self.root_node, childPath)
-      if core.is_instance_of(child, META["Player"]):
-        if not childPath == oldPlayer:
-          core.set_pointer(copied_node, "currentPlayer", child)
+      if core.is_instance_of(child, META["Player"]) and childPath != oldPlayer:
+        core.set_pointer(copied_node, "currentPlayer", child)
       if core.is_instance_of(child, META["Board"]):
         board = child
         tilePaths = core.get_children_paths(board)
@@ -286,13 +285,14 @@ class countingPieces(PluginBase):
 
               valid,currentTiles,flip=self.next_move_viable(tile)
 
-              if(valid==True):
+              if(valid):
                 logger.debug('valid: {}'.format(valid))
                 logger.debug('row:{0}'.format(core.get_attribute(tile,'row')))
                 logger.debug('column:{0}'.format(core.get_attribute(tile,'column')))
                 logger.info(flip)
                 validTileNodes.append(tile)
                 validFlip.append(flip)
+          break
       for i in validTileNodes:
         validTiles.append([core.get_attribute(i,'row'),core.get_attribute(i,'column')])
       logger.info(validTiles)
@@ -320,12 +320,12 @@ class countingPieces(PluginBase):
             #self.logger.info(tile)
             tile=self.nodes[tile]
             for piecePath in self.core.get_children_paths(tile):
-              piece=self.nodes[piecePath]           
               #check if color match then 
-              if "black"==self.core.get_attribute(piece,'color'):
-                blackCount=blackCount+1
-              elif "white"==self.core.get_attribute(piece,'color'):
-                whiteCount=whiteCount+1
+              if self.core.get_attribute(self.nodes[piecePath],'color')=="black":
+                blackCount+=1
+              else:
+                whiteCount+=1
+          break
 
       logger.info(blackCount)
       logger.info(whiteCount)
@@ -383,8 +383,7 @@ class countingPieces(PluginBase):
       self.namespace = None
       META = self.META
       tiles,flips=self.isHighlight()
-      random_index = randrange(len(tiles))
-      self.makeNewState(tiles[random_index],flips[random_index])
+      if len(tiles) > 0:
+        self.makeNewState(tiles[0],flips[0])
       
     
-
